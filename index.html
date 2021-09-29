@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/destinations.css">
+    <link rel="stylesheet" href="./css/landing.css">
     <title>Travel Site - Sprint 1 (Isaiah Mckenzie)</title>
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="page-header__wrapper">
-            <h1 class="page-header__title">Travel Site</h1>
-            <ul class="primary-nav">
-                <li><a href="#" class="primary-nav__link">Home</a></li>
-                <li><a href="#" class="primary-nav__link">Hawaii</a></li>
-                <li><a href="#" class="primary-nav__link">Iceland</a></li>
-                <li><a href="#" class="primary-nav__link">Greece</a></li>
-            </ul>
-        </div>
-    </header>
-    
+    <!-- Nav-Bar Section -->
+    <section class="nav-bar">
+        <header class="page-header">
+            <div class="page-header__wrapper">
+                <h1 class="page-header__title">Travel Site</h1>
+                <ul class="primary-nav">
+                    <li><a href="#" class="primary-nav__link">Home</a></li>
+                    <li><a href="#" class="primary-nav__link">Hawaii</a></li>
+                    <li><a href="#" class="primary-nav__link">Iceland</a></li>
+                    <li><a href="#" class="primary-nav__link">Greece</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+   
+    <!-- Hero Section -->
     <section class="home">
         <div class="home__wrapper">
             <div class="home__left">
@@ -36,8 +40,9 @@
         </div>
     </section>
 
+    <!-- Reccommendations Section -->
     <section class="destinations">
-        <h2 class="destinations-recommendations">Recommendations</h2>
+        <h2 class="recommendations">Recommendations</h2>
         <div class="albums">
             <article class="album">
                 <img class="album__img" src="#" alt="hawaii_art"/>
@@ -54,5 +59,32 @@
         </div>
     </section>
 
+    <!-- Footer Section -->
+    <footer>
+        <section class="info">
+            <div class="info__albums">
+                <article class=info__contact>
+                    <h2>Contact</h2>
+                    <h6>EMAIL</h6>
+                    <p>info@travelsite.com</p></article>
+                <article class="info__hours">
+                    <h2>Hours</h2>
+                    <h6>MONDAY - FRIDAY</h6>
+                    <p>9:00 AM - 5:00 PM</p>
+                    <h6>SATURDAY</h6>
+                    <p>10:00 AM - 4:00 PM</p>
+                    <h6>SUNDAY</h6>
+                    <p>Closed</p></article>
+                <article class="info__social">
+                    <h2>Social</h2>
+                    <div class="info__social__logos">
+                        <img src="./assets/icons/icon-instagram.png">
+                        <img src="./assets/icons/icon-facebook.png">
+                        <img src="./assets/icons/icon-twitter.png">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
