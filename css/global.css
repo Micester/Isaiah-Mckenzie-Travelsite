@@ -4,6 +4,12 @@
     border: 1px dashed lightgrey;
 }
 
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .page-header {
     background-color: #FFFFFF;
     padding: 0.625rem;
@@ -20,15 +26,18 @@
 .page-header__title {
     margin: 0;
     font-weight: normal;
+    color: #335576;
 }
 
 .primary-nav {
     display: flex;
     list-style-type: none;
 }
+
+.current {
+    text-decoration-color: #DB7A4E;
 }
 
-.primary-nav__link {
-    padding: 0.625rem;
+.not_current{
     text-decoration: none;
 }
