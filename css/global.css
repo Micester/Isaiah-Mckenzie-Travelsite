@@ -1,3 +1,34 @@
 * {
     width: 1280px
+    box-sizing: border-box;
+    border: 1px dashed lightgrey;
+}
+
+.page-header {
+    background-color: #FFFFFF;
+    padding: 0.625rem;
+}
+
+.page-header__wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header__title {
+    margin: 0;
+    font-weight: normal;
+}
+
+.primary-nav {
+    display: flex;
+    list-style-type: none;
+}
+}
+
+.primary-nav__link {
+    padding: 0.625rem;
+    text-decoration: none;
 }
