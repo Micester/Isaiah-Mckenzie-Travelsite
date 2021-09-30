@@ -2,6 +2,7 @@
     /* width: 1280px */
     box-sizing: border-box;
     border: 1px dashed lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-bar {
@@ -12,11 +13,10 @@
 
 .page-header {
     background-color: #FFFFFF;
-    padding: 0.625rem;
 }
 
 .page-header__wrapper {
-    /* max-width: 1280px; */
+    max-width: 1280px; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -25,8 +25,8 @@
 
 .page-header__title {
     margin: 0;
-    font-weight: normal;
     color: #335576;
+    /* padding: 0.625rem; */
 }
 
 .primary-nav {
@@ -34,10 +34,50 @@
     list-style-type: none;
 }
 
+.primary-nav li {
+    padding: 0.625rem;
+}
+
 .current {
     text-decoration-color: #DB7A4E;
+    color: black;
 }
 
 .not_current{
     text-decoration: none;
+    color: black;
+}
+
+.info {
+    background-color: #FEFAF5;
+}
+
+.info__albums {
+   display: flex;
+   align-items:flex-end;
+   justify-content: center;
+}
+
+.info__contact {
+    padding-right: 6.25rem;
+}
+
+.info__social {
+    padding-left: 6.25rem;
+}
+
+.info__hours, .info__saturday{
+    padding-right: 2.25rem;
+}
+
+.social__logos{
+    margin: .5rem;
+}
+/* Color for footing text */
+.top_row, .bottom_row{
+    color: #335576;
+}
+
+.middle_row {
+    color: #DB7A4E;
 }
