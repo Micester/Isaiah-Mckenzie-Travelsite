@@ -1,0 +1,94 @@
+/* Home-Page__Hero-Section */
+
+.home {
+    background-color: #FEFAF5;
+    text-align: left;
+}
+
+.home__title, .home__description {
+    color: #335576;
+}
+
+.home__title {
+    font-size: 46px;
+}
+
+.home__wrapper {
+    max-width: 80rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.home__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home__right, .home__left {
+    width: 50%;
+}
+
+.home__img {
+    max-width: 75%;
+    padding: 6.125rem;
+}
+
+/* Get started Button */
+
+.btn {
+    display: inline-block;
+    background: #DB7A4E;
+    color: white;
+    padding: 0.625rem;
+    border-radius: 31.25rem;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+}
+
+/* Recommendations-Section */
+
+.locations {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 80rem;
+}
+
+.locations-title {
+    color: #335576;
+}
+
+/* Recommended Locations */
+.albums {
+    max-width: 80rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: .5rem;
+}
+
+/* Location__Images */
+
+.album__img {
+    max-width: 75%;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 0.25rem 0.25rem  rgba(0, 0, 0, 0.5);
+}
+
+.album__text {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 2.5rem;
+    transform: translate(-50%, -50%);
+}
+
+.border {
+    position: relative;
+    color: white;
+    border-radius: 0.3125rem;
+}
+

@@ -1,8 +1,12 @@
 * {
-    /* width: 1280px */
-    box-sizing: border-box;
-    border: 1px dashed lightgrey;
+    /* width: 1280px; */
+    /* box-sizing: border-box;
+    border: 1px dashed lightgrey; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* max-width: 80rem; */
 }
 
 /* Nav */
@@ -17,7 +21,7 @@
 }
 
 .page-header__wrapper {
-    max-width: 1280px; 
+    max-width: 80rem; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -52,6 +56,7 @@
 /* Footer */
 .info {
     background-color: #FEFAF5;
+    padding: 6.5rem;
 }
 
 .info__albums {
@@ -61,11 +66,11 @@
 }
 
 .info__contact {
-    padding-right: 6.25rem;
+    padding-right: 10.25rem;
 }
 
 .info__social {
-    padding-left: 6.25rem;
+    padding-left: 10.25rem;
 }
 
 .info__hours, .info__saturday{
@@ -84,3 +89,4 @@
 .middle_row {
     color: #DB7A4E;
 }
+
