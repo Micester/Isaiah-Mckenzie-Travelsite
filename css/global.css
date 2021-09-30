@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Nav */
 .nav-bar {
     position: fixed;
     top: 0;
@@ -48,6 +49,7 @@
     color: black;
 }
 
+/* Footer */
 .info {
     background-color: #FEFAF5;
 }
@@ -73,6 +75,7 @@
 .social__logos{
     margin: .5rem;
 }
+
 /* Color for footing text */
 .top_row, .bottom_row{
     color: #335576;
