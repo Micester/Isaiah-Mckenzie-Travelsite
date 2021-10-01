@@ -34,6 +34,7 @@
     height: 450px;
     max-height: 550px;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .album-saturday {
@@ -47,6 +48,7 @@
     height: 450px;
     max-height: 550px;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .album-sunday {
@@ -60,4 +62,13 @@
     height: 450px;
     max-height: 550px;
     border-radius: 1rem;
+    text-align: center;
+}
+
+.album__titles {
+    border-bottom: 0.125rem solid black;
+}
+
+.activities {
+    padding: 1.5rem;
 }

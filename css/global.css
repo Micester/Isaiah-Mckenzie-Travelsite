@@ -44,15 +44,21 @@
 }
 
 .current {
-    text-decoration-color: #DB7A4E;
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
+    border-bottom: 0.21875rem solid #DB7A4E;
+    text-decoration: none;
+
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
 }
 
 .not_current{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* Footer */
