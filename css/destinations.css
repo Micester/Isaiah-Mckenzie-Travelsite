@@ -1,7 +1,6 @@
 /* Hawaii-Page */
-.hawaii-section, {
+.hawaii-section {
     overflow: hidden;
-    /* height: 105rem; */
     max-height: 105rem;
     object-fit: cover;
 }
@@ -24,9 +23,8 @@
 }
 
 /* Iceland-Page */
-.iceland-section, {
+.iceland-section {
     overflow: hidden;
-    /* height: 105rem; */
     max-height: 105rem;
     object-fit: cover;
 }
@@ -49,7 +47,7 @@
 }
 
 /* Greece-Page */
-.greece-section, {
+.greece-section {
     overflow: hidden;
     max-height: 105rem;
     object-fit: cover;
