@@ -1,5 +1,5 @@
 /* Hawaii-Page */
-.hawaii-section {
+.hawaii-section, {
     overflow: hidden;
     /* height: 105rem; */
     max-height: 105rem;
@@ -22,6 +22,61 @@
     font-size: 82px;
     color: white;
 }
+
+/* Iceland-Page */
+.iceland-section, {
+    overflow: hidden;
+    /* height: 105rem; */
+    max-height: 105rem;
+    object-fit: cover;
+}
+
+.iceland-section__img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    object-fit: cover;
+    max-height: 56.25rem;
+}
+
+.iceland-section__title {
+    position: absolute;
+    top: 3.5rem;
+    left: 12.25rem;
+    font-size: 82px;
+    color: white;
+}
+
+/* Greece-Page */
+.greece-section, {
+    overflow: hidden;
+    /* height: 105rem; */
+    max-height: 105rem;
+    object-fit: cover;
+}
+
+.greece-section__img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    object-fit: cover;
+    max-height: 56.25rem;
+}
+
+.greece-section__title {
+    position: absolute;
+    top: 3.5rem;
+    left: 12.25rem;
+    font-size: 82px;
+    color: white;
+}
+
+
+
+
+
 
 .album-friday {
     position: absolute;
