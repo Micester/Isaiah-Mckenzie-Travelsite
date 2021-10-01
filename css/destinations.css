@@ -22,3 +22,42 @@
     font-size: 82px;
     color: white;
 }
+
+.album-friday {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    max-height: 550px;
+    border-radius: 1rem;
+}
+
+.album-saturday {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    max-height: 550px;
+    border-radius: 1rem;
+}
+
+.album-sunday {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    max-height: 550px;
+    border-radius: 1rem;
+}
