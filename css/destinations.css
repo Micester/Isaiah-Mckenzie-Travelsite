@@ -12,5 +12,14 @@
     height: auto;
     bottom: 0;
     object-fit: cover;
-    max-height: 900px;
+    max-height: 56.25rem;
+}
+
+.hawaii-section__title {
+    position: absolute;
+    top: 6.5rem;
+    left: 5rem;
+    font-size: 92px;
+    color: white;
+ 
 }
