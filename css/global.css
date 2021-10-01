@@ -1,7 +1,7 @@
 * {
     /* width: 1280px; */
-    /* box-sizing: border-box;
-    border: 1px dashed lightgrey; */
+    box-sizing: border-box;
+    border: 1px dashed lightgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

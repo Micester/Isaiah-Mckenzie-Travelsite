@@ -1,0 +1,16 @@
+/* Hawaii-Page */
+.hawaii-section {
+    overflow: hidden;
+    /* height: 105rem; */
+    max-height: 105rem;
+    object-fit: cover;
+}
+
+.hawaii-section__img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    object-fit: cover;
+    max-height: 900px;
+}
