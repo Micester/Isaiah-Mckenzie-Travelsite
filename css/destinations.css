@@ -51,7 +51,6 @@
 /* Greece-Page */
 .greece-section, {
     overflow: hidden;
-    /* height: 105rem; */
     max-height: 105rem;
     object-fit: cover;
 }
@@ -72,11 +71,6 @@
     font-size: 82px;
     color: white;
 }
-
-
-
-
-
 
 .album-friday {
     position: absolute;
