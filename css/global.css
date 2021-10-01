@@ -46,11 +46,13 @@
 .current {
     text-decoration-color: #DB7A4E;
     color: black;
+    font-size: 20px;
 }
 
 .not_current{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 /* Footer */
