@@ -113,13 +113,9 @@
 }
 
 .album__titles {
-    border-bottom: 0.125rem solid black; 
+    border-bottom: 0.1875rem solid black; 
     margin: 0 1em;
     padding-top: 1rem;
-}
-
-.album__titles:not(.active) {
-    /* border-bottom: 2px solid #ccc; */
 }
 
 .activities {
