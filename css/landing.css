@@ -32,7 +32,7 @@
 
 .home__img {
     max-width: 100%;
-    padding: 6.125rem;
+    padding: 8rem;
 }
 
 /* Get started Button */
@@ -59,6 +59,7 @@
 
 .locations-title {
     color: #335576;
+    padding: 0.625rem;
 }
 
 /* Recommended Locations */

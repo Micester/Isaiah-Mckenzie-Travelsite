@@ -5,10 +5,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* body  */
-    /* max-width: 80rem; */
-
-
 /* Nav */
 .nav-bar {
     position: fixed;
@@ -31,7 +27,6 @@
 .page-header__title {
     margin: 0;
     color: #335576;
-    /* padding: 0.625rem; */
 }
 
 .primary-nav {

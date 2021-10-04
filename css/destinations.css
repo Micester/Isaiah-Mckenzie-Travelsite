@@ -17,8 +17,7 @@
 .hawaii-section__title {
     position: absolute;
     top: 3.5rem;
-    /* left: 12.25rem; */
-    left: 4.3rem;
+    left: 12.25rem;
     font-size: 5.125rem;
     color: white;
 }
@@ -42,8 +41,7 @@
 .iceland-section__title {
     position: absolute;
     top: 3.5rem;
-    /* left: 12.25rem; */
-    left: 4.3rem;
+    left: 12.25rem;
     font-size: 5.125rem;
     color: white;
 }
@@ -67,8 +65,7 @@
 .greece-section__title {
     position: absolute;
     top: 3.5rem;
-    /* left: 12.25rem; */
-    left: 4.3rem;
+    left: 12.25rem;
     font-size: 5.125rem;
     color: white;
 }
