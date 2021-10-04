@@ -10,10 +10,12 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .page-header {
     background-color: #FFFFFF;
+    z-index: 2;
 }
 
 .page-header__wrapper {
